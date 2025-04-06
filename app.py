@@ -54,7 +54,7 @@ async def startup_event():
         # Load documents with error handling
         try:
             logger.info("Starting to load PDF document...")
-            reader = SimpleDirectoryReader(input_files=["The Emperor of All Maladies_ A Biography of Cancer final.pdf"])
+            reader = SimpleDirectoryReader(input_files=["docs/The Emperor of All Maladies_ A Biography of Cancer final.pdf"])
             documents = reader.load_data()
             logger.info(f"Successfully loaded {len(documents)} document chunks")
             
