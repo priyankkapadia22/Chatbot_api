@@ -14,3 +14,6 @@ tf-keras
 # Common utilities
 python-dotenv
 sentence-transformers
+
+transformers
+torch
