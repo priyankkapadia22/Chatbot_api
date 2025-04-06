@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from llama_index.core import SimpleDirectoryReader, VectorStoreIndex
+from llama_index import SimpleDirectoryReader, VectorStoreIndex
 from llama_index.llms.groq import Groq
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 import os
